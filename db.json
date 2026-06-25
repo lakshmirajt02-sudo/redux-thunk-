@@ -2,8 +2,8 @@
    "tasks":[
       {
          "id" : 1 , 
-         "title" : "clean panchu",
-         "description" : "clean poopy panchu"
+         "title" : "clean house",
+         "description" : "clean the entire house"
       },
         {
          "id" : 2 , 
@@ -18,7 +18,7 @@
         {
          "id" : 4 , 
          "title" : "Gaming",
-         "description" : "Gaming roblox with sai killadi"
+         "description" : "Gaming with sai "
       }
    ]
 }
