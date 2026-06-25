@@ -1,0 +1,13 @@
+ul{
+   display: flex;
+   justify-content: center;
+   gap:30px;
+   background: linear-gradient(to right , rgb(255, 139, 139), rgb(245, 138, 204));
+   padding:20px;
+   border-radius: 15px;
+}
+
+li{
+   list-style: none;
+   font-size:18px;
+}
