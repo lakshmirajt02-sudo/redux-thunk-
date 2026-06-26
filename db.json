@@ -1,24 +1,45 @@
 {
-   "tasks":[
-      {
-         "id" : 1 , 
-         "title" : "clean house",
-         "description" : "clean the entire house"
-      },
-        {
-         "id" : 2 , 
-         "title" : "gardening",
-         "description" : "planting seeds and watering"
-      },
-        {
-         "id" : 3 , 
-         "title" : "cooking",
-         "description" : "cook lasagna"
-      },
-        {
-         "id" : 4 , 
-         "title" : "Gaming",
-         "description" : "Gaming with sai "
-      }
-   ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "clean house",
+      "description": "clean the entire house"
+    },
+    {
+      "id": "2",
+      "title": "gardening",
+      "description": "planting seeds and watering"
+    },
+    {
+      "id": "3",
+      "title": "cooking",
+      "description": "cook lasagna"
+    },
+    {
+      "id": "4",
+      "title": "Gaming",
+      "description": "Gaming with sai "
+    },
+    {
+      "title": "Homework",
+      "description": "Doing homework",
+      "id": "5URT_TAOAsY"
+    },
+    {
+      "title": "Homework",
+      "description": "Doing homework",
+      "id": "VoJOldv3KWM"
+    },
+    {
+      "title": "Homework",
+      "description": "Doing homework",
+      "id": "ChwJvSPyHJg"
+    },
+    {
+      "title": "",
+      "description": "",
+      "id": "oUfEQWWQoM0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
