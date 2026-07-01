@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { getTasksFromServer } from '../slice/TaskListSlice'
+import { getTasksFromServer , deleteTaskFromServer } from '../slice/TaskListSlice'
 
 const Tasks = () => {
 
@@ -14,6 +14,13 @@ const Tasks = () => {
     dispatch(getTasksFromServer())
   },[])
   // console.log(taskLists);
+
+  const handleDelete = (id)=>{
+    const is_confirm =window.confirm("Are you sure you want to delete this task ?")
+    if(is_confirm){
+         dispatch(deleteTaskFromServer(id))
+    }
+  }
   
   return (
     <div>
@@ -23,7 +30,8 @@ const Tasks = () => {
           <div key = {item.id}>
             <p>{item.id}</p>
             <p>{item.title}</p>
-            <p>{item.description}</p><hr />
+            <p>{item.description}</p>
+            <button onClick={()=>handleDelete(item.id)} >Delete</button><hr />
           </div>
         ))}
       </div>

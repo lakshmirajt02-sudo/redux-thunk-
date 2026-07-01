@@ -21,25 +21,9 @@
       "description": "Gaming with sai "
     },
     {
-      "title": "Homework",
+      "title": "homework",
       "description": "Doing homework",
-      "id": "5URT_TAOAsY"
-    },
-    {
-      "title": "Homework",
-      "description": "Doing homework",
-      "id": "VoJOldv3KWM"
-    },
-    {
-      "title": "Homework",
-      "description": "Doing homework",
-      "id": "ChwJvSPyHJg"
-    },
-    {
-      "title": "",
-      "description": "",
-      "id": "oUfEQWWQoM0"
+      "id": 1782888843877
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
